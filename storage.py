@@ -27,11 +27,11 @@ def load_books():
 
     for value in data:
         book = Book(
-            value['name'],
-            value['author'],
-            value['price'],
-            value['genre'],
-            value['date']
+            value["name"],
+            value["author"],
+            value["price"],
+            value["genre"],
+            value["date"]
         )
 
         books.append(book)
